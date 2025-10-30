@@ -1,0 +1,103 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                KINGG RESTAURANT LEDGER - WINDOWS SETUP           ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+📋 SIMPLE 5-STEP SETUP GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: INSTALL NODE.JS
+├─ Go to: https://nodejs.org/
+├─ Click "Download LTS" (green button)
+├─ Run the downloaded installer
+├─ Click "Next" → "Next" → "Next" → "Install"
+└─ Restart your computer
+
+STEP 2: VERIFY INSTALLATION
+├─ Press Windows Key + R
+├─ Type: cmd
+├─ Press Enter
+├─ In the black window, type: node --version
+└─ You should see: v18.x.x or similar
+
+STEP 3: GO TO PROJECT FOLDER
+├─ In the Command Prompt (black window)
+├─ Type: cd C:\Users\YourName\Desktop\kingg-ledger
+└─ (Replace with your actual folder path)
+
+STEP 4: INSTALL PACKAGES
+├─ Type: npm install
+├─ Press Enter
+└─ Wait 2-5 minutes (downloading packages)
+
+STEP 5: START THE APP
+├─ Type: npm start
+├─ Press Enter
+├─ Wait 10-20 seconds
+└─ Browser will open automatically!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔑 LOGIN CREDENTIALS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Universal ID: KINGG
+Password: KINGG123
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ QUICK COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Start the app:
+  npm start
+
+Stop the app:
+  Press Ctrl+C (in the Command Prompt)
+  Then type: Y
+  Then press: Enter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🐛 TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem: "npm is not recognized"
+Solution: Node.js not installed. Go back to STEP 1
+
+Problem: "Cannot find module"
+Solution: Run: npm install
+
+Problem: Port 3000 already in use
+Solution: Close other apps or run: set PORT=3001 && npm start
+
+Problem: Browser doesn't open
+Solution: Manually open browser and go to: http://localhost:3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 APP FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Add customers with auto-generated PINs
+✓ Track credits (money owed to you)
+✓ Track payments (money received)
+✓ View transaction history
+✓ Delete transactions (with password)
+✓ Change universal password
+✓ All data saved in browser
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Keep the Command Prompt window open while using the app
+• Your data is saved automatically in the browser
+• You can change the password in Settings
+• Each customer gets a unique 4-digit PIN
+• Credits = Money customers owe you (shows as red/due)
+• Payments = Money you received (shows as green)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Need more help? Check README.md for detailed instructions.

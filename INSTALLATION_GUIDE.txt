@@ -1,0 +1,359 @@
+═══════════════════════════════════════════════════════════════════
+    KINGG RESTAURANT LEDGER - COMPLETE INSTALLATION GUIDE
+═══════════════════════════════════════════════════════════════════
+
+🎯 WHAT YOU'LL GET:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A professional restaurant ledger management system that runs in your 
+web browser. Track customer credits, payments, and balances with 
+automatic calculations and data persistence.
+
+═══════════════════════════════════════════════════════════════════
+PART 1: INSTALLING NODE.JS (ONE-TIME SETUP)
+═══════════════════════════════════════════════════════════════════
+
+📥 Step 1: Download Node.js
+────────────────────────────────────────────────────────────────
+1. Open your web browser (Chrome, Edge, Firefox, etc.)
+2. Go to: https://nodejs.org/
+3. You'll see TWO big green buttons
+4. Click the LEFT button (says "LTS" - Long Term Support)
+   Example: "18.17.0 LTS" or "20.x.x LTS"
+5. The file will download (about 30 MB)
+   File name: node-v18.x.x-x64.msi (or similar)
+
+⚙️ Step 2: Install Node.js
+────────────────────────────────────────────────────────────────
+1. Find the downloaded file (usually in "Downloads" folder)
+2. Double-click the file to run it
+3. Click "Next" on the welcome screen
+4. Accept the license agreement → Click "Next"
+5. Leave default installation folder → Click "Next"
+6. Leave default features selected → Click "Next"
+7. Check "Automatically install necessary tools" → Click "Next"
+8. Click "Install"
+9. Windows may ask "Do you want to allow this app to make changes?"
+   → Click "Yes"
+10. Installation will take 1-2 minutes
+11. Click "Finish"
+12. IMPORTANT: Restart your computer
+
+✅ Step 3: Verify Node.js Installation
+────────────────────────────────────────────────────────────────
+1. Press Windows Key + R (Run dialog opens)
+2. Type: cmd
+3. Press Enter (Black window opens - this is Command Prompt)
+4. Type: node --version
+5. Press Enter
+6. You should see: v18.x.x (or v20.x.x)
+7. Type: npm --version
+8. Press Enter
+9. You should see: 9.x.x (or 10.x.x)
+
+If you see version numbers, SUCCESS! ✓
+If you see "not recognized", restart computer and try again.
+
+═══════════════════════════════════════════════════════════════════
+PART 2: INSTALLING THE RESTAURANT LEDGER APP
+═══════════════════════════════════════════════════════════════════
+
+📦 Step 1: Extract the Project Files
+────────────────────────────────────────────────────────────────
+1. Find the file: kingg-ledger.zip
+2. Right-click on it
+3. Select "Extract All..."
+4. Choose a location (Recommended: Desktop)
+   Example: C:\Users\YourName\Desktop\
+5. Click "Extract"
+6. A folder named "kingg-ledger" will be created
+
+💻 Step 2: Install Project Dependencies
+────────────────────────────────────────────────────────────────
+METHOD A - EASY WAY (Using START.bat):
+1. Open the "kingg-ledger" folder
+2. Find the file: START.bat
+3. Double-click START.bat
+4. The app will automatically:
+   - Check if Node.js is installed
+   - Install all required packages
+   - Start the application
+5. Your browser will open automatically!
+
+METHOD B - MANUAL WAY (Using Command Prompt):
+1. Press Windows Key + R
+2. Type: cmd
+3. Press Enter
+4. In the Command Prompt, type:
+   cd C:\Users\YourName\Desktop\kingg-ledger
+   (Replace with YOUR actual folder path)
+5. Press Enter
+6. Type: npm install
+7. Press Enter
+8. Wait 2-5 minutes (installing packages)
+9. When done, type: npm start
+10. Press Enter
+11. Browser opens automatically!
+
+═══════════════════════════════════════════════════════════════════
+PART 3: USING THE APPLICATION
+═══════════════════════════════════════════════════════════════════
+
+🔐 Login
+────────────────────────────────────────────────────────────────
+When the browser opens, you'll see a login screen:
+
+Universal ID: KINGG
+Password: KINGG123
+
+Type these exactly (CAPITAL letters) and click Login.
+
+🏠 Home Screen
+────────────────────────────────────────────────────────────────
+After login, you'll see:
+• Total Credit (all money owed to you)
+• Total Paid (all money received)
+• List of customers
+• "+" button to add new customers
+
+➕ Adding a Customer
+────────────────────────────────────────────────────────────────
+1. Click the "+" button (bottom-right corner)
+2. Enter customer name (Example: "John Smith")
+3. Enter your password (KINGG123) for verification
+4. Click "Add Customer"
+5. A unique 4-digit PIN is automatically generated
+6. Customer appears in the list!
+
+📝 Adding Transactions
+────────────────────────────────────────────────────────────────
+1. Click "View Ledger" on any customer
+2. You'll see two summary cards:
+   - Total Credit (money they owe)
+   - Total Payment (money they paid)
+
+To add credit (customer owes you money):
+1. Click "+ Add Credit" button
+2. Enter amount (Example: 500)
+3. Click "Add Credit"
+4. Transaction is saved!
+
+To add payment (customer paid you):
+1. Click "+ Add Payment" button
+2. Enter amount (Example: 200)
+3. Click "Add Payment"
+4. Transaction is saved!
+
+🗑️ Deleting Transactions
+────────────────────────────────────────────────────────────────
+1. In the transaction table, find the entry
+2. Click the trash icon (🗑️)
+3. Enter your password for security
+4. Click "Delete"
+5. Transaction is removed!
+
+⚙️ Changing Password
+────────────────────────────────────────────────────────────────
+1. Click the Settings icon (⚙️) in top-right corner
+2. Enter current password: KINGG123
+3. Enter new password
+4. Confirm new password
+5. Click "Change Password"
+6. Done! Use new password from now on.
+
+🚪 Logging Out
+────────────────────────────────────────────────────────────────
+Click the Logout icon (top-right corner) to return to login screen.
+
+═══════════════════════════════════════════════════════════════════
+PART 4: DAILY USAGE
+═══════════════════════════════════════════════════════════════════
+
+📅 Starting the App Each Day
+────────────────────────────────────────────────────────────────
+OPTION 1 - Double-click START.bat (EASIEST):
+1. Go to kingg-ledger folder
+2. Double-click START.bat
+3. Wait for browser to open
+4. Login and use!
+
+OPTION 2 - Using Command Prompt:
+1. Press Windows Key + R
+2. Type: cmd
+3. Type: cd C:\Users\YourName\Desktop\kingg-ledger
+4. Type: npm start
+5. Browser opens!
+
+🛑 Stopping the App
+────────────────────────────────────────────────────────────────
+When you're done for the day:
+1. Go to the Command Prompt (black window)
+2. Press Ctrl + C
+3. Type: Y
+4. Press Enter
+5. You can close the Command Prompt now
+
+Important: Your data is SAVED automatically! You won't lose anything.
+
+═══════════════════════════════════════════════════════════════════
+PART 5: TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════════
+
+❌ Problem: "npm is not recognized"
+────────────────────────────────────────────────────────────────
+Cause: Node.js not installed or not in PATH
+Solution:
+1. Go back to PART 1
+2. Reinstall Node.js
+3. Restart computer
+4. Try again
+
+❌ Problem: Port 3000 is already in use
+────────────────────────────────────────────────────────────────
+Cause: Another app is using port 3000
+Solution A: Close all other programs and try again
+Solution B: Use different port:
+1. In Command Prompt, type: set PORT=3001 && npm start
+2. App will run on port 3001 instead
+
+❌ Problem: Browser doesn't open automatically
+────────────────────────────────────────────────────────────────
+Solution:
+1. Manually open your browser
+2. Go to: http://localhost:3000
+3. App should appear!
+
+❌ Problem: Blank white page appears
+────────────────────────────────────────────────────────────────
+Solution:
+1. Press Ctrl + Shift + R (hard refresh)
+2. Or clear browser cache
+3. Check Command Prompt for any red error messages
+
+❌ Problem: "Cannot find module"
+────────────────────────────────────────────────────────────────
+Solution:
+1. Close the app (Ctrl+C)
+2. Delete "node_modules" folder
+3. Type: npm install
+4. Wait for it to finish
+5. Type: npm start
+
+❌ Problem: App is slow or freezing
+────────────────────────────────────────────────────────────────
+Solution:
+1. Close other browser tabs
+2. Restart the app
+3. Restart your computer
+4. Make sure you have at least 4GB free RAM
+
+═══════════════════════════════════════════════════════════════════
+PART 6: DATA BACKUP & RESTORE
+═══════════════════════════════════════════════════════════════════
+
+💾 How to Backup Your Data
+────────────────────────────────────────────────────────────────
+1. Open the app in browser
+2. Press F12 (Developer Tools opens)
+3. Click "Console" tab at the top
+4. Type this command (copy-paste):
+   localStorage.getItem('restaurantLedger')
+5. Press Enter
+6. Right-click the result → Copy
+7. Paste into Notepad
+8. Save as: backup-2024-01-01.txt
+9. Keep this file safe!
+
+🔄 How to Restore Data
+────────────────────────────────────────────────────────────────
+1. Open the app in browser
+2. Press F12
+3. Click "Console" tab
+4. Type: localStorage.setItem('restaurantLedger', '')
+5. Between the quotes '', paste your backup data
+6. Press Enter
+7. Close Developer Tools
+8. Refresh page (F5)
+9. Your data is restored!
+
+═══════════════════════════════════════════════════════════════════
+PART 7: TIPS & BEST PRACTICES
+═══════════════════════════════════════════════════════════════════
+
+✅ DO's:
+────────────────────────────────────────────────────────────────
+✓ Backup your data weekly
+✓ Use strong passwords
+✓ Keep Command Prompt window open while using app
+✓ Double-check amounts before adding transactions
+✓ Write down PINs for customers separately
+
+❌ DON'Ts:
+────────────────────────────────────────────────────────────────
+✗ Don't close Command Prompt while using app
+✗ Don't forget to backup important data
+✗ Don't share your universal password
+✗ Don't delete node_modules folder unless reinstalling
+
+💡 Keyboard Shortcuts:
+────────────────────────────────────────────────────────────────
+• Refresh page: F5
+• Hard refresh: Ctrl + Shift + R
+• Open Developer Tools: F12
+• Close app: Ctrl + C (in Command Prompt)
+
+═══════════════════════════════════════════════════════════════════
+PART 8: FREQUENTLY ASKED QUESTIONS
+═══════════════════════════════════════════════════════════════════
+
+Q: Is my data safe?
+A: Yes! Data is stored locally in your browser. Nobody else can 
+   access it. But remember to backup regularly.
+
+Q: Can I use this on multiple computers?
+A: Yes! Just copy the kingg-ledger folder to other computers and 
+   install Node.js there. But data won't sync automatically - you 
+   need to manually transfer backups.
+
+Q: Can multiple people use it at once?
+A: Not simultaneously on same computer. But you can run it on 
+   multiple computers with separate data.
+
+Q: What if I forget the password?
+A: Use Developer Tools (F12) → Console → Type:
+   localStorage.clear()
+   This will reset everything including password to default.
+
+Q: Can I access this from my phone?
+A: Not directly. This runs on your computer only. To access from 
+   phone, you'd need to deploy it to a web server (advanced).
+
+Q: Is internet required?
+A: Only for initial installation (to download packages). After 
+   that, it works completely offline!
+
+Q: How do I update the app?
+A: Download new version, extract, copy your data backup, run new 
+   version, restore backup.
+
+═══════════════════════════════════════════════════════════════════
+PART 9: SUPPORT & CONTACT
+═══════════════════════════════════════════════════════════════════
+
+For technical support:
+1. Check WINDOWS_SETUP.txt for quick reference
+2. Check README.md for detailed documentation
+3. Check this guide's TROUBLESHOOTING section
+
+═══════════════════════════════════════════════════════════════════
+
+🎉 CONGRATULATIONS! You're all set!
+
+Remember: 
+• Default ID: KINGG
+• Default Password: KINGG123
+• To start: Double-click START.bat
+• To stop: Press Ctrl+C in Command Prompt
+
+Happy ledger management! 📊
+
+═══════════════════════════════════════════════════════════════════
